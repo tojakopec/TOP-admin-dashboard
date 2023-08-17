@@ -1,7 +1,65 @@
 * {
+    outline: 1px dotted blue;
     box-sizing: border-box;
 }
 
 body {
     margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
 }
+
+/* MAIN DIVS */
+#sidebar{
+    grid-area: 1 / 1 / 3 / 2;
+    background-color: #1992d4;
+}
+
+#header {
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: violet;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+#dashboard {
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: #e2e8f0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+/* INNER DIVS HEADER */
+#searchbar {
+    grid-area: 1 / 1 / 2 / 2;
+}
+
+#username-top {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#hello-user {
+    grid-area: 2 / 1 / 3 / 2;
+}
+
+#header-buttons {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+/* INNER DIVS DASHBOARD */
+#user-projects {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+#announcements {
+    grid-area: 1 / 2 / 2 / 3;
+}
+
+#trending-users {
+    grid-area: 2 / 2 / 3 / 3;
+}
+
+
