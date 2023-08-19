@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ruwudu&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -10,13 +14,25 @@
     <!-- Sidebar -->
     <div id="sidebar" class="sidebar">
         <div id="logo-title">
-
+            <img id="logo" src="./assets/format-wrap-square.svg" class="logo">
+            <p id="title">Dashboard</p>
         </div>
             <div id="top-nav">
-
+                <ul id="menu-top">
+                    <li><img class="icon" src="./assets/home-circle-outline.svg">Home</li>
+                    <li><img class="icon" src="./assets/card-account-details.svg">Profile</li>
+                    <li><img class="icon" src="./assets/message-processing-outline.svg">Messages</li>
+                    <li><img class="icon" src="./assets/history.svg">History</li>
+                    <li><img class="icon" src="./assets/clipboard-text-outline.svg">Tasks</li>
+                    <li><img class="icon" src="./assets/account-group.svg">Communities</li>
+                </ul>
             </div>
             <div id="bottom-nav">
-
+                <ul id="menu-bottom">
+                    <li><img class="icon" src="./assets/cog-outline.svg">Settings</li>
+                    <li><img class="icon" src="./assets/lifebuoy.svg">Support</li>
+                    <li><img class="icon" src="./assets/eye-lock-outline.svg">Privacy</li>
+                </ul>
             </div>
     </div>
 
@@ -24,17 +40,26 @@
     <div id="header">
         
         <div id="search">
+            <img class="icon" src="./assets/magnify.svg">
             <input id="searchbar" type="text" name="searchbar">
         </div>
         <div id="hello-user">
-
+            <img class="avatar-large" src="./assets/avatar.svg">
+            <p class="hello-msg">Hi there,<br>
+            <span class="hello-name">Tomislav Jakopec (@tojakopec)</span></p>
         </div>
         <div id="username-top">
-
+            <img class="icon" src="./assets/bell-ring-outline.svg">
+            <img class="avatar" src="./assets/avatar.svg">
+            <p>Tomislav Jakopec</p>
         </div>
 
         <div id="header-buttons">
-
+            <ul>
+            <li><button class="button-user" name="new">New</button></li>
+            <li><button class="button-user" name="upload">Upload</button></li>
+            <li><button class="button-user" name="share">Share</button></li>
+        </ul>
         </div>
 
 
@@ -44,17 +69,98 @@
 
     <div id="dashboard">
         <div id="user-projects">
-            <div class="project-card">
-                
+            <div id="section-cards">
+                <h3>Your Projects</h3>
+                <div id="card1" class="card">
+                   <h4 class="card-title">Project 1</h4>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a perferendis atque similique nobis deserunt facilis voluptas ducimus unde error nemo pariatur, autem doloremque rerum ad ullam beatae officiis maxime? </p> 
+                   <ul class="project-icons">
+                    <li><img src="./assets/star-plus-outline.svg"></li>
+                    <li><img src="./assets/eye-plus-outline.svg"></li>
+                    <li><img src="./assets/share-variant-outline.svg"></li>
+                   </ul>
+                </div>
+                <div id="card2" class="card">
+                    <h4 class="card-title">Project 2</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a perferendis atque similique nobis deserunt facilis voluptas ducimus unde error nemo pariatur, autem doloremque rerum ad ullam beatae officiis maxime? </p>
+                    <ul class="project-icons">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/share-variant-outline.svg"></li>
+                       </ul>
+                </div>
+                <div id="card3" class="card">
+                    <h4 class="card-title">Project 3</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a perferendis atque similique nobis deserunt facilis voluptas ducimus unde error nemo pariatur, autem doloremque rerum ad ullam beatae officiis maxime? </p>
+                    <ul class="project-icons">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/share-variant-outline.svg"></li>
+                       </ul>
+                </div>
+                <div id="card4" class="card">
+                    <h4 class="card-title">Project 4</h4><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a perferendis atque similique nobis deserunt facilis voluptas ducimus unde error nemo pariatur, autem doloremque rerum ad ullam beatae officiis maxime? </p>
+                    <ul class="project-icons">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/share-variant-outline.svg"></li>
+                       </ul>
+                </div>
+                <div id="card5" class="card">
+                    <h4 class="card-title">Project 5</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a perferendis atque similique nobis deserunt facilis voluptas ducimus unde error nemo pariatur, autem doloremque rerum ad ullam beatae officiis maxime? </p>
+                    <ul class="project-icons">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/share-variant-outline.svg"></li>
+                       </ul>
+                </div>
+                <div id="card6" class="card">
+                    <h4 class="card-title">Project 6</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus a perferendis atque similique nobis deserunt facilis voluptas ducimus unde error nemo pariatur, autem doloremque rerum ad ullam beatae officiis maxime? </p>
+                    <ul class="project-icons">
+                        <li><img src="./assets/star-plus-outline.svg"></li>
+                        <li><img src="./assets/eye-plus-outline.svg"></li>
+                        <li><img src="./assets/share-variant-outline.svg"></li>
+                       </ul>
+                </div>
             </div>
         </div>
 
         <div id="announcements">
-
+            <h3>Announcements</h3>
+            <div id="anno-text">
+                <h4>Site Maintenance</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. </p>
+                <hr>
+                <h4>Community Share Day</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+                <hr>
+                <h4>Updated Privacy Policy</h4>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
         </div>
 
         <div id="trending-users">
-            
+            <h3>Trending</h3>
+            <div id="trending-card">
+                <ul class="trending-list">
+                    <li><img class="avatar" src="./assets/av1.svg">
+                    <p><strong>@user1412</strong><br>
+                    Beardy Moustache</p>
+                    </li>
+                    <li><img class="avatar" src="./assets/av2.svg">
+                        <p><strong>@user1412</strong><br>
+                        Beardy Moustache</p>
+                    </li>
+                    <li><img class="avatar" src="./assets/av3.svg">
+                        <p><strong>@user1412</strong><br>
+                        Beardy Moustache</p>
+                    </li>
+                </ul>
+            </div>
+
+            </div>
         </div>
     </div>
 

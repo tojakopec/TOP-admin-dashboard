@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 20 20"
+   version="1.1"
+   id="svg2619"
+   sodipodi:docname="star-plus-outline.svg"
+   width="20"
+   height="20"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2623" />
+  <sodipodi:namedview
+     id="namedview2621"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="42.791667"
+     inkscape:cx="9.9902629"
+     inkscape:cy="9.9902629"
+     inkscape:window-width="2560"
+     inkscape:window-height="1392"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2619" />
+  <path
+     d="M 3.8,19 5.4,12 0,7.2 7.2,6.6 10,0 12.8,6.6 20,7.2 16.8,10 H 16 c -0.7,0 -1.4,0.1 -2.1,0.4 l 2.2,-1.9 -4.4,-0.4 -1.7,-4 -1.7,4 -4.4,0.4 3.3,2.9 -1,4.3 3.8,-2.3 0.5,0.3 c -0.2,0.5 -0.4,1.1 -0.4,1.6 L 3.8,19 M 15,12 v 3 h -3 v 2 h 3 v 3 h 2 v -3 h 3 v -2 h -3 v -3 z"
+     id="path2617" />
+</svg>
