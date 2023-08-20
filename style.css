@@ -113,8 +113,6 @@ body {
     grid-template-columns: 1fr;
     grid-template-rows: auto 1fr;
     height: fit-content;
-    
-    
 }
 
 #trending-users {
@@ -325,7 +323,6 @@ body {
     align-items: center;
     justify-content: flex-end;
     gap: 20px;
-    
 }
 
 .project-icons li {
